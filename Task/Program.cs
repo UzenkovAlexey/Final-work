@@ -16,6 +16,19 @@
 string[] Array1 = new string[11] {"Hello", "Сat", "World", ":-)", "1234", "567", "-2",
                                  "Computer science", "Russia", "Denmark", "Kazan"};
 string[] Array2 = new string[Array1.Length];
+void SecondArray(string[] array2, string[] Array2)
+{
+    int count = 0;
+    for (int i = 0; i < Array1.Length; i++)
+    {
+        if(Array1[i].Length <= 3)
+        {
+            Array2[count] = Array1[i];
+            count++;
+
+        }
+    }
+}
 
 
     
