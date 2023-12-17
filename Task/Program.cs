@@ -12,3 +12,7 @@
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → [] 
 */
+
+string[] Array1 = new string[11] {"Hello", "Сat", "World", ":-)", "1234", "567", "-2",
+                                 "Computer science", "Russia", "Denmark", "Kazan"}
+
