@@ -14,5 +14,10 @@
 */
 
 string[] Array1 = new string[11] {"Hello", "Сat", "World", ":-)", "1234", "567", "-2",
-                                 "Computer science", "Russia", "Denmark", "Kazan"}
+                                 "Computer science", "Russia", "Denmark", "Kazan"};
+string[] Array2 = new string[Array1.Length];
+
+
+    
+                                 
 
